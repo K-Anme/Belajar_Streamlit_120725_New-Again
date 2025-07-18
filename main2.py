@@ -2,8 +2,8 @@
 
 import streamlit as st
 import math
-from streamlit_option_menu 
-import option_menu
+from streamlit_option_menu import option_menu
+
 st.set_page_config(page_title="Kalkulator pH", page_icon=":1234:", layout="wide")
 
 # Halaman utama untuk pilihan
