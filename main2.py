@@ -24,10 +24,11 @@ with st.sidebar:
     )
 
 if selected == "Beranda":
-    st.markdown("<h1 style='text-align: center; color: green;'>SELAMAT DATANG</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: white;'>SELAMAT DATANG</h1>", unsafe_allow_html=True)
     left, mid, right = st.columns(3)
     with mid:
-        st.image("D:\kalkulator_ph_larutan\logoapp.gif")    
+        st.image("D:\kalkulator_ph_larutan\logoapp.gif")  
+    st.background: linear-gradient(to bottom, #2d5a2d, #0d1a0d);
     st.markdown('---')
     st.markdown('<div style="text-align: center;">Kalkulator pH Larutan adalah alat online gratis yang dirancang untuk memudahkan pengguna dalam menghitung pH suatu larutan. Silakan pilih metode perhitungan yang sesuai, kemudian ikuti perintah yang ditampilkan di layar!</div>', unsafe_allow_html=True)
     st.markdown('---')
