@@ -32,16 +32,16 @@ if selected == "Beranda":
         """
         <style>
         [data-testid="stAppViewContainer"] {
-            background: linear-gradient(to bottom, #1e3d1e, #0a1a0a);
+            background: linear-gradient(to bottom, #3E5F44, #93DA97);
         }
         body {
-            color: #ffffff;
+            color: #3E5F44, #93DA97;
         }
         .stMarkdown, .stImage, .stHeadingContainer, .stContainer {
             color: inherit;
         }
         .st-b7, .st-b8, .st-b9 {  /* Menargetkan komponen Streamlit tertentu */
-            color: white !important;
+            color: #3E5F44, #93DA97!important;
         }
         </style>
         """,
