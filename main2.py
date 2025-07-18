@@ -31,12 +31,18 @@ if selected == "Beranda":
     st.markdown(
         """
         <style>
-            [data-testid="stAppViewContainer"] {
-                background: linear-gradient(to bottom, #2d5a2d, #0d1a0d);
-            }
-            .stMarkdown, .stImage, .stHeadingContainer {
-                color: white;
-            }
+        [data-testid="stAppViewContainer"] {
+            background: linear-gradient(to bottom, #1e3d1e, #0a1a0a);
+        }
+        body {
+            color: #ffffff;
+        }
+        .stMarkdown, .stImage, .stHeadingContainer, .stContainer {
+            color: inherit;
+        }
+        .st-b7, .st-b8, .st-b9 {  /* Menargetkan komponen Streamlit tertentu */
+            color: white !important;
+        }
         </style>
         """,
         unsafe_allow_html=True
